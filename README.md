@@ -6,7 +6,7 @@ Welcome to **Tony's Coffee Photography**, a website dedicated to celebrating the
 
 ## Features
 
-- **Header Navigation**: Easily access sections like Home, Types, About Us, Reviews, and Contact Us.
+**Header Navigation**: Easily access sections like Home, Types, About Us, Reviews, and Contact Us.
 - **Main Content**: A detailed introduction to coffee photography and its essence.
 - **Coffee Types**: A showcase of various coffee styles with high-quality images.
 - **About Us Section**: Information about the creators and the mission behind the website.
