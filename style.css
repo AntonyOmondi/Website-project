@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: url(./images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: .5rem;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    padding-left: 1rem;
+    border-radius: 2.7rem;
+    align-items: center;
+    margin: auto;
+}
+
+nav div h1 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(226, 215, 194);
+    font-weight: 500;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.title h1 {
+    padding: 1rem;
+    text-shadow: 2px 2px 8px black;
+    font-size: 20px;
+}
+
+.title img {
+    padding: .5rem;
+    height: 8vh;
+    border-radius: 6rem;
+    border: .5px solid rgb(185, 161, 154);
+}
+
+.title img:hover {
+    padding: .5rem;
+    height: 8vh;
+    box-shadow: 2px 2px 8px rgb(226, 162, 77);
+}
+
+nav ul li a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(226, 215, 194);
+    text-decoration: none;
+    text-shadow: 2px 2px 8px black;
+}
+
+nav ul li a:hover {
+    font-family: "Roboto", sans-serif;
+    color: rgb(226, 162, 77);
+    transition: .3s ease-in-out;
+    text-shadow: 2px 2px 8px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li {
+    margin-left: 3.5rem;
+}
+header h1 {
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 2rem;
+    color: rgb(226, 215, 194);
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 8px black;
+}
+header .row .content h1 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(226, 215, 194);
+    text-align: left;
+    font-size: 25px;
+    text-shadow: 2px 2px 8px black;
+    padding-bottom: 2px;
+}
+.content p {
+    font-family: "Roboto", sans-serif;
+    color: rgb(226, 215, 194);
+    text-align: left;
+    text-shadow: 2px 2px 8px black;
+}
+.row {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+.content {
+    flex-basis: 2;
+    width: 50%;
+}
+.photos {
+    border: 1px solid rgb(226, 215, 194);
+    height: 500px;
+    width: 400px;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 10px;
+    flex-basis: 1;
+}
+.photos img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.types {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(151, 70, 12);
+    padding: 1.5rem 1rem;
+}
+.types h1 {
+    color: rgb(226, 215, 194);
+    text-shadow: 2px 2px 8px black;
+    padding-bottom: 1rem;
+    
+}
+.varieties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+.varieties img {
+    height: 50%;
+    width: 70%;
+    border-radius: 1rem;
+    border: 1px solid rgb(226, 215, 194);
+}
+.varieties img:hover {
+    border: 2px solid chocolate;
+    transition: .2s;
+    box-shadow: 8px 8px 10px;
+    cursor: pointer;
+}
+.varieties h2 {
+    color: rgb(226, 215, 194);
+    text-shadow: 2px 2px 8px black;
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
+}
+.types .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus {
+    background-color: rgb(156, 78, 22);
+    padding: 1.5rem;
+}
+.aboutus .row {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    color: rgb(226, 215, 194);
+    text-shadow: 2px 2px 8px black;
+    width: 50%;
+}
+.about-content h1 {
+    font-size: 30px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
+.image img {
+    padding: 1rem;
+    height: 40%;
+    width: 70%;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 10px rgb(226, 215, 194);
+}
+.reviews {
+    background-color: chocolate;
+}
+.reviews h2{
+    font-family: "Roboto", sans-serif;
+    color: rgb(226, 215, 194);
+    text-align:center;
+    font-size: 25px;
+    text-shadow: 2px 2px 8px black;
+    padding: 2rem 0;
+}
+.reviews .rows {
+    display: flex;
+    flex-direction: column;
+}
+.participants {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 1rem 1rem;
+    height: 80%;
+    justify-content: center;
+}
+.participants .content h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: rgb(226, 215, 194);
+    text-align: left;
+    text-shadow: 0.125rem 0.125rem 8px black;
+    padding-bottom: .5rem;
+}
+.your-review {
+    background-color: rgb(207, 108, 38);
+}
+.your-review .row {
+    flex-direction: column;
+}
+.review-header {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    color: rgb(226, 215, 194);
+    text-shadow: 2px 2px 8px black;
+}
+.your-review form {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: .5rem;
+    width: 80%;
+    margin-top: 0%;
+    border-radius: .5rem;
+}
+.your-review form input{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 50%;
+    background-color: rgb(226, 215, 194);
+    box-shadow: 2px 2px 8px;
+    border-radius: .5rem;
+    outline: none;
+}
+form textarea {
+    margin: 1rem;
+    height: 7rem;
+    width: 50%;
+    padding: .5rem;
+    background-color: rgb(226, 215, 194);
+    box-shadow: 2px 2px 8px;
+    border-radius: .5rem;
+    outline: none;
+}
+form button {
+    width: 20%;
+    height: 30px;
+    background-color: rgb(226, 215, 194);
+    border-radius: .5rem;
+    color: chocolate;
+    border: 1px solid rgb(226, 215, 194);
+    box-shadow: 2px 2px 8px black;
+    margin-bottom: 1.5rem;
+}
+form button:hover {
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+}
+form select {
+    background-color: rgb(226, 215, 194);
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 8px;
+}
+.contacts {
+    background-color: rgb(239, 134, 58);
+    display: flex;
+    flex-direction: column;
+}
+.contacts-header {
+    text-align: center;
+    padding: 1.5rem;
+    color: rgb(226, 215, 194);
+    text-shadow: 2px 2px 8px black;
+}
+.contacts-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+.contacts-info h3 {
+    color: rgb(226, 215, 194);
+    text-shadow: 2px 2px 8px black;
+}
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 40%;
+}
+.map iframe {
+    height: 100%;
+    width: 50%;
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .photos {
+        width: 100%;
+        height: auto;
+    }
+    .content {
+        width: 100%;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+    nav ul.active {
+        display: flex;
+    }
+    .menu-icon {
+        display: block;
+    }
+    nav ul li {
+        margin-left: 1rem;
+    }
+    .title img {
+        height: 6vh;
+    }
+    header h1 {
+        font-size: 25px;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .varieties {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    header h1 {
+        font-size: 5vw;
+    }
+}
+
+
